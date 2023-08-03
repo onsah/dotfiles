@@ -1,12 +1,3 @@
 atom-one
-org.intellij.plugins.hcl
 com.jetbrains.darkPurpleTheme
-com.github.copilot
-org.jetbrains.plugins.ruby
-com.intellij.lang.jsgraphql
-com.netflix.graphql.dgs.intellijplugin
-kotest-plugin-intellij
-com.nbadal.ktlint
 org.intellij.scala
-com.github.tomasmilata.intelliroutes
-nix-idea

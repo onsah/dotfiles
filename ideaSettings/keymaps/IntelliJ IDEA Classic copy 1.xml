@@ -1,0 +1,15 @@
+<keymap version="1" name="IntelliJ IDEA Classic copy 1" parent="Mac OS X">
+  <action id="FileChooser.TogglePathBar" />
+  <action id="GotoClass">
+    <keyboard-shortcut first-keystroke="meta o" />
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="meta p" />
+  </action>
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="meta alt o" />
+  </action>
+  <action id="OptimizeImports" />
+  <action id="OverrideMethods" />
+  <action id="ParameterInfo" />
+</keymap>

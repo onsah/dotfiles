@@ -1,0 +1,12 @@
+<application>
+  <component name="LangManager">
+    <option name="languageName" value="JAVA" />
+  </component>
+  <component name="LessonStateBase">
+    <option name="map">
+      <map>
+        <entry key="java.onboarding" value="NOT_PASSED" />
+      </map>
+    </option>
+  </component>
+</application>

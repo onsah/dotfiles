@@ -4,13 +4,14 @@
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern=".env.local" type="PLAIN_TEXT" />
-      <mapping pattern=".env.localstack" type="PLAIN_TEXT" />
       <mapping pattern=".envrc.deploy.sample" type="PLAIN_TEXT" />
+      <mapping pattern=".env.dev" type="PLAIN_TEXT" />
+      <mapping pattern=".env.localstack" type="PLAIN_TEXT" />
       <mapping pattern=".tool-versions" type="PLAIN_TEXT" />
       <mapping pattern=".env.contract" type="PLAIN_TEXT" />
-      <mapping pattern=".env.dev" type="PLAIN_TEXT" />
       <mapping ext="mockmaker" type="PLAIN_TEXT" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
+      <removed_mapping ext="pdf" approved="true" type="Native" />
       <removed_mapping ext="proto" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="routes" approved="true" type="Routes" />

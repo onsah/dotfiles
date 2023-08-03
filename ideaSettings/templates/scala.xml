@@ -1,0 +1,25 @@
+<templateSet group="scala">
+  <template name="DbApi" value="import models.generic.db.DBDriver.api._" description="db api import" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SCALA" value="true" />
+    </context>
+  </template>
+  <template name="import slickApi" value="import models.generic.db.DBDriver.api._" description="import header for importing Slick Api" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SCALA" value="true" />
+    </context>
+  </template>
+  <template name="ApiSpec" value="import org.scalatestplus.play._&#10;&#10;class $ClassName$Spec extends PlaySpec {&#10;&#10;  import $ClassName$Spec._&#10;&#10;  &quot;$methodName$&quot; should {&#10;    &quot;$condition$&quot; in {&#10;      &#10;    }&#10;  }&#10;}&#10;&#10;object $ClassName$Spec {&#10;  private final case class SpecSetup(&#10;    &#10;  )&#10;  &#10;  private def getSetup: SpecSetup = ???&#10;}" description="Creates a new Test Spec" toReformat="false" toShortenFQNames="true">
+    <variable name="ClassName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="methodName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="condition" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SCALA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="testCaseComments" value="// Parameters&#10;// Preconditions&#10;// Setup&#10;// Action&#10;// Test" description="Comments for describing a test case" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SCALA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

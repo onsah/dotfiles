@@ -1,0 +1,9 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="Scala">
+        <added pattern="services.billing.payment.stripe.StripeUtilsImpl.chargeCardWithCustomerToken(connectedStripeUserId,customerToken,cardToken,amount,fee,description,metadata,creditCardInfo,singleUse)" />
+      </blacklist>
+    </blacklists>
+  </component>
+</application>

@@ -1,0 +1,10 @@
+<templateSet group="myTemplates">
+  <template name="TestCase" value="&quot;$method_name$&quot; should {&#10;    &quot;$case$&quot; in {&#10;        withScenario(&#10;            $scenario_name$,&#10;            () =&gt; {&#10;            &#10;            }&#10;        )&#10;    }&#10;}" description="Generate a test case" toReformat="false" toShortenFQNames="true">
+    <variable name="method_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="case" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="scenario_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SCALA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

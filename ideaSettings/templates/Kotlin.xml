@@ -1,0 +1,8 @@
+<templateSet group="Kotlin">
+  <template name="MacroSoftDeletableEntity" value="data class $ClassName$(&#10;  override val id: Id&lt;$ClassName$&gt;,&#10;  override val createdAt: Instant,&#10;  override val updatedAt: Instant,&#10;  override val deletedAt: Instant? = null,&#10;): SoftDeletableEntity&lt;$ClassName$&gt; {&#10;  override fun cloneWithCommonFields(id: Id&lt;TeamQueue&gt;, createdAt: Instant, updatedAt: Instant): TeamQueue =&#10;        copy(&#10;          id = id,&#10;          createdAt = createdAt,&#10;          updatedAt = updatedAt,&#10;        )&#10;&#10;    override fun cloneWithCommonFieldsWithSoftDelete(&#10;        id: Id&lt;TeamQueue&gt;,&#10;        createdAt: Instant,&#10;        updatedAt: Instant,&#10;        deletedAt: Instant?&#10;    ): TeamQueue =&#10;      copy(&#10;        id = id,&#10;        createdAt = createdAt,&#10;        updatedAt = updatedAt,&#10;        deletedAt = deletedAt&#10;      )&#10;}&#10;" description="Base sceleton for SoftDeletableEntity" toReformat="false" toShortenFQNames="true">
+    <variable name="ClassName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>
